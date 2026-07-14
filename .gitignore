@@ -1,0 +1,10 @@
+# artefatos pesados e regeneráveis (baixados/compilados pelo setup.sh)
+llama.cpp/
+llama.cpp-src/
+models/
+
+# saída do profiler (regenerável; ~30 MB por execução)
+trace.json
+
+# python
+__pycache__/
