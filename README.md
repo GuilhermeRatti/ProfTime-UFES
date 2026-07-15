@@ -2,7 +2,7 @@
 
 Reimplementação didática e mínima da visão **ProfTime** do artigo
 [ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler](paper/2601.20755v2.pdf)
-(arXiv:2601.20755). A ideia: observar, **sem modificar nem recompilar** o motor
+(arXiv:2601.20755). Produzido por Arthur Roberto Barbosa Maciel e Guilherme Ratti Moraes. A ideia: observar, **sem modificar nem recompilar** o motor
 de inferência (llama.cpp), o que as threads da inferência estão fazendo a cada
 instante — executando, esperando por CPU ou dormindo — e em qual CPU, junto com
 as fronteiras de cada passo de geração de token.
